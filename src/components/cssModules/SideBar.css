@@ -1,0 +1,49 @@
+aside {
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    width: 251px;
+    height: 50.25px;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgba(217,217,217,1.00);
+    font-weight: 500;
+}
+
+.side-bar-link-content {
+    padding: 12px;
+    display: inherit;
+}
+
+.side-bar-link-content__text {
+    margin-left: 20px;
+    margin-right: 16px;
+}
+
+.icon-main, .icon-overview, .notification-icon, .message-icon, .bookmarks-icon, .lists-icon, .profile-icon, .extra-menu-icon {
+    width: 26.25px;
+    height: 26.25px;
+    fill: rgba(217,217,217,1.00);
+}
+
+.twit {
+    width: 226px;
+    height: 52px;
+    color: white;
+    background-color: #00acee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
