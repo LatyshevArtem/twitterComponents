@@ -9,12 +9,12 @@ export const HatProfile = ({hatImage, communityLogo}) => {
     return (
         <div className={style.hatProfile}>
             <header className={style.hatImage}>
-                <img src={hatImage} alt="" />
+                <img src={hatImage} alt="Изображение профиля" />
             </header>
             <div className={style.hatContent}>
                 <div className={style.logoAndMenu}>
                     <div className={style.communytiLogo}>
-                        <img src={communityLogo} alt="" />
+                        <img src={communityLogo} alt="Логотип сообщества" />
                     </div>
                     <div className={style.menu}>
                         <div className={style.extraMenu}>
